@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HOME</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- icon teb -->
+    <link rel="shortcut icon" href="./img/w3.jpeg" type="image/x-icon" />
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+ 
+
+    <!-- font nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- OWL CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body id="myBody">
+    <!-- header -->
+    <header class="fixed-top bg-white">
+      <!-- place navbar here -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-lightx py-3">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3" href="./index.html">
+              <i class="fa-regular fa-handshake"></i> Masterwork
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./service.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./blog.html">Blog Posts</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Landing Page</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./404.html">404 Page</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="mx-3"
+                id="search_header"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#popup_header"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <button
+                type="button"
+                class=" red btn btn-outline-danger mx-3 py-3 px-4 fw-bold"
+              >
+                SCHEDULE A DEMO
+              </button>
+              <button
+                class="btn"
+                id="switchButton"
+                title="Click to switch theme"
+              >
+                <i class="far fa-moon"></i>
+                <i class="far fa-sun"></i>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- carousel -->
+      <section class="cap_carousel">
+        <div
+          class="container d-grid align-items-center position-relative justify-content-center"
+        >
+          <div class="row">
+            <div class="cap_left col-lg-6 col-sm-9">
+              <h1>We Execute Our Ideas From Start to Finish</h1>
+              <p>
+                Building a beautiful interactive business for startups and
+                innovative companies.
+              </p>
+              <button
+                type="button"
+                class=" red btn btn-outline-danger mx-3 py-3 px-4 fw-bold"
+              >
+                GET STARTED
+              </button>
+            </div>
+            <div class="cap_right col-lg-6 col-sm-3 text-center">
+              <img src="./img/main.png" class="" alt="head man" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- tools -->
+      <section class="cap_tools">
+        <div class="container">
+          <div class="cap_tools_top text-center">
+            <p class="sub_title">WHY CHOOSE US</p>
+            <h2>Tools for business startup to professional</h2>
+            <p class="sub_content">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus
+              turpis sodales quis. Integer sit amet mattis quam.
+            </p>
+          </div>
+          <div
+            class="cap_tools_bottom d-grid justify-content-center text-center gap-4 pb-5"
+          >
+           <div class="row">
+            <div class="tools_item col-sm-12 mb-sm-3 col-lg-4">
+              <div class="tools_content">
+                <img src="./img/s1.png" alt="" />
+                <h2>Interactive</h2>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Obcaecati temporibus temporary ab saepe.
+                </p>
+              </div>
+            </div>
+            <div class="tools_item col-sm-12 mb-sm-3 col-lg-4">
+              <div class="tools_content">
+                <img src="./img/s2.png" alt="" />
+                <h2>Interactive</h2>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Obcaecati temporibus ab saepe.
+                </p>
+              </div>
+            </div>
+            <div class="tools_item col-sm-12 mb-sm-3 col-lg-4">
+              <div class="tools_content">
+                <img src="./img/s3.png" alt="" />
+                <h2>Interactive</h2>
+                <p class="sub_content">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Obcaecati temporibus ab saepe.
+                </p>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </section>
+      <!-- information -->
+      <section class="cap_infor">
+        <div class="container">
+          <div class="infor_top d-grid">
+           <div class="row">
+            <div class="infor_top_left col-sm-12 col-lg-6">
+              <p class="sub_title">ABOUT OUR COMPANY</p>
+              <h2>The Best Choice For Your Successful Business!</h2>
+              <p class="sub_content">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+                repellendus illum harum quam nihil totam reprehenderit! Ut sed
+                eveniet quos! Asperiores officia, repudiandae similique
+                reiciendis, ab est magnam esse nesciunt ea fuga facere
+                voluptatem.
+              </p>
+              <button>READ MORE</button>
+            </div>
+            <div class="infor_top_right col-sm-12 col-lg-6">
+              <img src="./img/about.jpg" alt="" />
+            </div>
+           </div>
+          </div>
+          <div class="infor_bottom d-grid">
+            <div class="row">
+              <div class="infor_items col-4">
+                <div class="infor_content">
+                  <p>Happy Customers</p>
+                  <h2 class="counter">10458</h2>
+                  <p class="sub_content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Facere atque sed.
+                  </p>
+                </div>
+              </div>
+              <div class="infor_items col-4">
+                <div class="infor_content">
+                  <p>Winning Awards</p>
+                  <h2 class="counter">890</h2>
+                  <p class="sub_content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Facere atque sed.
+                  </p>
+                </div>
+              </div>
+              <div class="infor_items col-4">
+                <div class="infor_content">
+                  <p>Completed Projects</p>
+                  <h2 class="counter">5345</h2>
+                  <p class="sub_content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Facere atque sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- news -->
+      <section class="cap_news">
+        <div class="container text-start">
+          <div class="position-relative text-white col-lg-4 col-sm-12">
+            <h2>
+              We are true to ourselves, and commit to always perform at our
+              best.
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, doloribus atque. Corrupti exercitationem
+              voluptatem ipsum iste consequuntur et vitae voluptas temporibus?
+              Maxime dolores amet voluptatum illo consequatur placeat fugit
+              ducimus.
+            </p>
+            <button>READ MORE</button>
+          </div>
+        </div>
+      </section>
+      <!-- Gerneral FAQs -->
+      <section class="cap_faqs py-4">
+        <div class="container py-5">
+          <div class="faqs_top w-75 mx-auto text-center">
+            <p class="sub_title">QUESTIONS AND ANSWERS</p>
+            <h1>General FAQs</h1>
+            <p class="sub_content">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus
+              turpis sodales quis. Integer sit amet mattis quam.
+            </p>
+          </div>
+          <div class="faqs_bottom d-flex">
+            <div class="faqs_bottom_left my-3">
+              <img src="./img/women.jpg" alt="women" />
+            </div>
+            <div class="faqs_bottom_right">
+              <div>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item my-3 border rounded">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button rounded"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
+                        There are many passages but the majority?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Voluptates amet earum velit nobis aliquam laboriosam
+                          nihil debitis facere voluptatibus consectetur quae
+                          quasi fuga, ad corrupti libero omnis sapiente non
+                          assumenda, incidunt officiis eaque iste minima autem.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item my-3 border rounded">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed rounded"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Sed ut perspicatis unde omnis?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                    >
+                      <div class="accordion-body">
+                        Voluptates amet earum velit nobis aliquam laboriosam
+                        nihil debitis facere voluptatibus consectetur quae quasi
+                        fuga, ad corrupti libero omnis sapiente non assumenda,
+                        incidunt officiis eaque iste minima autem.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item my-3 border rounded">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed rounded"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        At vero eos iusto odio ducimus qui?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingthree"
+                    >
+                      <div class="accordion-body">
+                        Voluptates amet earum velit nobis aliquam laboriosam
+                        nihil debitis facere voluptatibus consectetur quae quasi
+                        fuga, ad corrupti libero omnis sapiente non assumenda,
+                        incidunt officiis eaque iste minima autem.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item my-3 border rounded">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button
+                        class="accordion-button collapsed rounded"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        We denounce with rightteous?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFour"
+                    >
+                      <div class="accordion-body">
+                        Voluptates amet earum velit nobis aliquam laboriosam
+                        nihil debitis facere voluptatibus consectetur quae quasi
+                        fuga, ad corrupti libero omnis sapiente non assumenda,
+                        incidunt officiis eaque iste minima autem.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item my-3 border rounded">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button
+                        class="accordion-button collapsed rounded"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive"
+                        aria-expanded="false"
+                        aria-controls="collapseFive"
+                      >
+                        perspricatis unde omnis?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFive"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFive"
+                    >
+                      <div class="accordion-body">
+                        Voluptates amet earum velit nobis aliquam laboriosam
+                        nihil debitis facere voluptatibus consectetur quae quasi
+                        fuga, ad corrupti libero omnis sapiente non assumenda,
+                        incidunt officiis eaque iste minima autem.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item border rounded">
+                    <h2 class="accordion-header" id="headingSix">
+                      <button
+                        class="accordion-button collapsed rounded"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix"
+                        aria-expanded="false"
+                        aria-controls="collapseSix"
+                      >
+                        At vero eos iusto odio ducimus qui?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseSix"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingSix"
+                    >
+                      <div class="accordion-body">
+                        Voluptates amet earum velit nobis aliquam laboriosam
+                        nihil debitis facere voluptatibus consectetur quae quasi
+                        fuga, ad corrupti libero omnis sapiente non assumenda,
+                        incidunt officiis eaque iste minima autem.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Project -->
+      <section class="cap_project p-5">
+        <div class="container">
+          <div class="cap_pj_top text-center mb-5">
+            <p class="sub_title">FEATURED CASES</p>
+            <h2 class="fw-bold" style="font-size: 46px">Completed Projects</h2>
+            <div class="sub_content w-75 mx-auto px-5">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus
+              turpis sodales quis. Integer sit amet mattis quam.
+            </div>
+          </div>
+          <div class="cap_pj_bottom">
+            <div class="pj_bottom_content">
+              <ul
+                class="nav nav-pills mx-auto justify-content-center mb-4 w-100"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item   " role="presentation">
+                  <button
+                    class="nav-link active fw-bolder fs-5"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    Project One
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link fw-bolder  fs-5"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    Project Two
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link fw-bolder  fs-5"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    Project Three
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                  tabindex="0"
+                >
+                  <div class="pj_bt_item d-flex mx-5 p-5 pt-3">
+                    <div class="pj_item_left ms-5 w-50">
+                      <h3 class="fw-bold">
+                        Why a visual identity system is more memorable
+                      </h3>
+                      <p class="sub_content">
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis dolores praesentium nulla quibusdam
+                        repellendus.
+                        <br>consequatur minus aliquam corrupti
+                        blanditiis, necessitatibus consectetur modi ipsum natus
+                        accusantium sit pariatur.
+                      </p>
+                      <button
+                        type="button"
+                        class=" red btn btn-outline-danger px-4 py-3 fw-bold"
+                      >
+                        KNOW MORE
+                      </button>
+                    </div>
+                    <div class="pj_item_right w-50 pe-3">
+                      <img
+                        src="./img/b4.jpg"
+                        alt="flower"
+                        class="w-100 rounded"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                  tabindex="0"
+                >
+                  <div class="pj_bt_item d-flex mx-5 p-5 pt-3">
+                    <div class="pj_item_left w-50">
+                      <img
+                        src="./img/b5.jpg"
+                        alt="flower"
+                        class="w-100 rounded"
+                      />
+                    </div>
+                    <div class="pj_item_right w-50 pe-3">
+                      <h3 class="fw-bold">
+                        Make website that looks Lorem, ipsum dolor.                      </h3>
+                      <p class="sub_content">
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis dolores praesentium nulla quibusdam
+                        repellendus.
+                        <br> consequatur minus aliquam corrupti
+                        blanditiis, necessitatibus consectetur modi ipsum natus
+                        accusantium sit pariatur.
+                      </p>
+                      <button
+                        type="button"
+                        class="red btn btn-outline-danger px-4 py-3 fw-bold"
+                      >
+                        KNOW MORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                  tabindex="0"
+                >
+                  <div class="pj_bt_item d-flex mx-5 p-5 pt-3">
+                    <div class="pj_item_left ms-5 w-50">
+                      <h3 class="fw-bold">
+                        Why a visual identity system is more memorable
+                      </h3>
+                      <p class="sub_content">
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis dolores praesentium nulla quibusdam
+                        repellendus.
+                        <br> consequatur minus aliquam corrupti
+                        blanditiis, necessitatibus consectetur modi ipsum natus
+                        accusantium sit pariatur.
+                      </p>
+                      <button
+                        type="button"
+                        class="red btn btn-outline-danger mx-3 px-4 py-3 fw-bold"
+                      >
+                        KNOW MORE
+                      </button>
+                    </div>
+                    <div class="pj_item_right w-50 pe-3">
+                      <img
+                        src="./img/b6.jpg"
+                        alt="flower"
+                        class="w-100 rounded"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- feedback -->
+      <section class="cap_feedback">
+        <div class="container">
+          <div class="fb_top text-center">
+            <p class="sub_title">OUR CLIENTS TESTIMONIALS</p>
+            <h2 class="fw-bold fs-1">What People Say</h2>
+            <p class="sub_content w-75 px-5 mx-auto">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus
+              turpis sodales quis. Integer sit amet mattis quam.
+            </p>
+          </div>
+          <div class="fb_bottom">
+            <div class="owl-carousel owl-theme mx-auto px-5">
+              <div class="fb_bt_item d-flex">
+                <div class="fb__bt_left">
+                  <div class="fb_bt_img">
+                    <img src="./img/team3.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+                <div class="fb_bt_right d-flex">
+                  <i
+                    class="fa fa-quote-left d-block fs-1 me-2 text-black-50"
+                  ></i>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Assumenda corporis deleniti praesentium doloremque.
+                      Repellendus soluta quos nemo quisquam consectetur
+                      temporibus quam obcaecati sapiente quaerat et.
+                    </p>
+                    <h4>Isabella Mia</h4>
+                    <span>Company name</span>
+                  </div>
+                </div>
+              </div>
+              <div class="fb_bt_item d-flex">
+                <div class="fb__bt_left">
+                  <div class="fb_bt_img">
+                    <img src="./img/team4.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+                <div class="fb_bt_right d-flex">
+                  <i
+                    class="fa fa-quote-left d-block fs-1 me-2 text-black-50"
+                  ></i>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Assumenda corporis deleniti praesentium doloremque.
+                      Repellendus soluta quos nemo quisquam consectetur temporibus
+                      quam obcaecati sapiente quaerat et.
+                    </p>
+                    <h4>Benjamin Lucas</h4>
+                    <span>Company name</span>
+                  </div>
+                </div>
+              </div>
+              <div class="fb_bt_item d-flex">
+                <div class="fb__bt_left">
+                  <div class="fb_bt_img">
+                    <img src="./img/team5.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+                <div class="fb_bt_right d-flex">
+                  <i
+                    class="fa fa-quote-left d-block fs-1 me-2 text-black-50"
+                  ></i>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Assumenda corporis deleniti praesentium doloremque.
+                      Repellendus soluta quos nemo quisquam consectetur temporibus
+                      quam obcaecati sapiente quaerat et.
+                    </p>
+                    <h4>Oliver Bradley</h4>
+                    <span>Company name</span>
+                  </div>
+                </div>
+              </div>
+              <div class="fb_bt_item d-flex">
+                <div class="fb__bt_left">
+                  <div class="fb_bt_img">
+                    <img src="./img/team6.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+                <div class="fb_bt_right d-flex">
+                  <i
+                    class="fa fa-quote-left d-block fs-1 me-2 text-black-50"
+                  ></i>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Assumenda corporis deleniti praesentium doloremque.
+                      Repellendus soluta quos nemo quisquam consectetur temporibus
+                      quam obcaecati sapiente quaerat et.
+                    </p>
+                    <h4>William James</h4>
+                    <span>Company name</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- call to action -->
+      <section class="cap_action py-5">
+        <div class="action_title w-50 mx-auto text-center">
+          <h1 class="fw-bold">Ready to build your own brand community?</h1>
+          <p class="sub_content">
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+            sodales quis. Integer sit amet mattis quam.
+          </p>
+        </div>
+        <div class="action_button mx-auto text-center">
+          <button
+            type="button"
+            class="red btn btn-outline-danger mx-3 py-3 px-4 fw-bold"
+          >
+            BOOK A DEMO
+          </button>
+          <button>GET STARTED</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-5">
+      <!-- place footer here -->
+      <div class="container">
+        <div class="footer_top d-flex gap-5">
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Meta</h4>
+
+            <ul>
+              <li><a href="#" class="text-decoration-none text-muted">Log In</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Entries Feed</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Comments Feed</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">WordPress.Org</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Categories</h4>
+
+            <ul>
+              <li><a href="#" class="text-decoration-none text-muted">Business</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Design</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Industry</a></li>
+              <li><a href="#" class="text-decoration-none text-muted">Programming</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Archives</h4>
+
+            <ul>
+              <li><a href="#" class="text-decoration-none text-muted">March 2021</a></li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h4 class="mb-4 fw-bold fs-5">Newsletter</h4>
+
+            <div class="bg-white py-5 px-4 rounded">
+              <h3>Get latest updates and offers.</h3>
+              <form action="" class="subscribe" method="post">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required=""
+                />
+                <button type="submit">Go</button>
+              </form>
+              <p class="text-muted">Sign up for our latest news & articles. We won’t give you spam mails.</p>
+            </div>
+          </div>
+        </div>
+        <hr class="text-muted">
+        <div class="footer_bottom d-flex justify-content-between mt-5">
+          <p class="text-muted">© 2023 Masterwork. All Rights Reserved | WordPress Theme by W3Layouts.</p>
+          <div>
+            <a href="#" class="mx-3 "><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="mx-3 "><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="mx-3 "><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="mx-3"><i class="fa-brands fa-google-plus-g"></i></i></a>
+            <a href="#" class="mx-3"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+ <!-- button back To Top -->
+ <div class="top_up">
+  <a href="#" class="cd-top text-replace js-cd-top"><i class=" fa fa-arrow-up"></i> </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <!-- popup modal  -->
+    <div
+      class="modal fade"
+      id="popup_header"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control px-4"
+                placeholder="Enter Keyword"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn bg-danger text-white px-4 py-3"
+                type="button"
+                id="button-addon2"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- counting number up -->
+    <script src="./js/count_up/jquery.countup.js"></script>
+
+    <script>
+      $(".counter").countUp({
+        time: 2000,
+        delay: 10,
+      });
+    </script>
+
+    <!-- OWL JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script src="./libs/owlcarousel/owl.carousel.min.js"></script> -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+  <!-- back to top -->
+<script src="./js/back-to-top-master/assets/js/util.js"></script>
+<script src="./js/back-to-top-master/assets/js/main.js"></script>
+
+
+    <!-- theme dark and light js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
